@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+#heading {
+    font-size: 4rem;
+    color: #333;
+    letter-spacing: 0.2rem;
+}
+
+.letter {
+    display: inline-block;
+    overflow: hidden;
+    height: 4rem;
+    width: 2.5rem;
+    position: relative;
+}

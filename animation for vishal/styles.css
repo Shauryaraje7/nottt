@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transform: rotate3d(0, 0, 0, 0deg);
+    transition: transform 0.1s ease-out, box-shadow 0.1s ease-out; /* Smooth animation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notion {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0; /* Remove margin */
+}
+
+.community {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px; /* Add space between Notion and Community */
+}
